@@ -20,7 +20,6 @@ git clone https://github.com/MohamedAshraf-SP/viganiumAPI.git
 
 
 # Install Dependencies
-```bash
 npm install
 
 # Setup Database
