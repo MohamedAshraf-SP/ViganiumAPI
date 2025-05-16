@@ -23,7 +23,7 @@
 # CMD =>  npm run start
 
 ## Try Endpoint 
-# 1 =>  import the postman file "viganiumTask.json" to Postman Application
+# 1 =>  import the postman file "viganiumTask.postman_collection.json" to Postman Application
 # 2 =>  you can test products , categories endpoints 
 # 3 =>  there are Get All, Get by id, Uupdate, Delete , Create for each Entity
 # 4 =>  there is get products by category id endpoint
