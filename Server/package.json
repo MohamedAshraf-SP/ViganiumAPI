@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "setup-db": "ts-node src/setups/createDatabase.ts",
+    "setup-db2": "tsc &&  node dist/setups/createDatabase.js",
+    "start": "node dist/server.js",
+    "watch": "tsc --watch",
+    "dev": "tsc && node dist/server.js",
+    "nodemon-dev": "nodemon --watch src --ext ts --exec node --loader ts-node/esm src/server.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.4",
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.17",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
